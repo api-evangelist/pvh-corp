@@ -1,0 +1,58 @@
+aid: pvh-corp
+name: PVH Corp
+description: >-
+  PVH Corp, formerly known as the Phillips-Van Heusen Corporation, is an
+  American clothing company headquartered in Manhattan, New York City and
+  listed on the New York Stock Exchange under the ticker PVH. Founded in 1881,
+  PVH today operates two iconic owned global brands — Calvin Klein and Tommy
+  Hilfiger — along with licensed brands including Kenneth Cole New York and
+  Michael Kors. PVH divested its Heritage Brands wholesale business (Van
+  Heusen, Arrow, Izod, Geoffrey Beene) to Authentic Brands Group in August
+  2021, refocusing the company on its two flagship designer lifestyle brands.
+  PVH does not currently publish a public developer API or developer portal
+  at the corporate level; technology and commerce integrations are handled
+  brand-by-brand and through closed wholesale, licensing, and retail
+  technology partnerships.
+kind: company
+image: https://kinlane-productions.s3.amazonaws.com/apis-json/apis-json-logo.jpg
+tags:
+  - Apparel
+  - Brand Portfolio
+  - Fashion
+  - Lifestyle
+  - Public Company
+  - Retail
+  - Wholesale
+url: https://raw.githubusercontent.com/api-evangelist/pvh-corp/refs/heads/main/apis.yml
+created: '2026-05-23'
+modified: '2026-05-23'
+specificationVersion: '0.19'
+apis: []
+common:
+  - type: Website
+    url: https://www.pvh.com/
+  - type: AboutUs
+    url: https://www.pvh.com/company
+  - type: Brands
+    url: https://www.pvh.com/brands
+  - type: CalvinKlein
+    url: https://www.calvinklein.com/
+  - type: TommyHilfiger
+    url: https://usa.tommy.com/
+  - type: InvestorRelations
+    url: https://www.pvh.com/investors
+  - type: News
+    url: https://www.pvh.com/news
+  - type: Sustainability
+    url: https://www.pvh.com/responsibility
+  - type: Careers
+    url: https://careers.pvh.com/
+  - type: GitHubOrganization
+    url: https://github.com/pvhcorp
+  - type: LinkedIn
+    url: https://www.linkedin.com/company/pvh/
+  - type: StockTicker
+    url: https://www.nyse.com/quote/XNYS:PVH
+maintainers:
+  - FN: Kin Lane
+    email: kin@apievangelist.com
