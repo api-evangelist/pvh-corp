@@ -30,6 +30,8 @@ modified: '2026-05-23'
 specificationVersion: '0.19'
 apis: []
 common:
+  - type: DomainSecurity
+    url: security/pvh-corp-domain-security.yml
   - type: Website
     url: https://www.pvh.com/
   - type: AboutUs
