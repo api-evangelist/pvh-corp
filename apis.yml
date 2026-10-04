@@ -1,5 +1,5 @@
 aid: pvh-corp
-name: PVH Corp
+name: PVH
 description: >-
   PVH Corp, formerly known as the Phillips-Van Heusen Corporation, is an
   American clothing company headquartered in Manhattan, New York City and
@@ -81,3 +81,4 @@ common:
 maintainers:
   - FN: Kin Lane
     email: kin@apievangelist.com
+x-legal-name: PVH Corp
