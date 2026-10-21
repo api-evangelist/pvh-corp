@@ -1,0 +1,68 @@
+edges:
+- partner_name: OEKO-TEX (textile certification)
+  partner: null
+  partner_match: register
+  type: register
+  channel: standard-directory
+  relationship: standard-participant
+  direction: partner-built
+  evidence: https://services.oeko-tex.com/buying-guide/
+  category: OEKO-TEX certified textile / leather products
+  contract_reference:
+    register: OEKO-TEX Buying Guide (services.oeko-tex.com/buying-guide/, public lookup)
+    standard: OEKO-TEX (STANDARD 100 / LEATHER STANDARD / STeP / ECO PASSPORT / MADE IN GREEN / ...)
+    spec_file: null
+    role: oeko-tex-certified
+    registered_name: PVH Corp.
+    register_country: United States
+    matched_domain: pvh.com
+    matched_by: domain
+    certified_products:
+    - product: OEKO-TEX STANDARD 100
+      standard_code: '100'
+      certified_entities:
+      - PVH Corp.
+      lapsed: false
+    signal_note: certified_products = one entry per OEKO-TEX standard held, never per certificate or site; the Buying
+      Guide lists only currently valid certificates, so lapse is not observable (lapsed False = listed on the read
+      date). Looked up by the provider's catalog name; the certified company linked by its profile website (domain
+      + name check)
+    detected_by: sweep-fashion-apparel.py
+    detected: '2026-10-20'
+  detected_by: sweep-fashion-apparel.py
+  first_seen: '2026-10-20'
+- partner_name: Cascale (Sustainable Apparel Coalition)
+  partner: null
+  partner_match: register
+  type: register
+  channel: standard-directory
+  relationship: standard-participant
+  direction: partner-built
+  evidence: https://cascale.org/our-members/
+  category: apparel sustainability coalition membership
+  contract_reference:
+    register: Cascale members (cascale.org/our-members/, formerly Sustainable Apparel Coalition)
+    standard: Higg Index (Cascale)
+    spec_file: null
+    role: cascale-member
+    registered_name: PVH Corp.
+    register_id: 2339
+    register_location: New York, New York, United States
+    partner_tier: Brands & Retailers
+    matched_domain: pvh.com
+    matched_by: domain
+    signal_note: 'participation only: coalition membership; member type is context, never counted'
+    detected_by: sweep-fashion-apparel.py
+    detected: '2026-10-20'
+  detected_by: sweep-fashion-apparel.py
+  first_seen: '2026-10-20'
+generated: '2026-10-20'
+method: searched
+source:
+- https://services.oeko-tex.com/buying-guide/
+- https://cascale.org/our-members/
+- https://www.centricsoftware.com/partners/
+checked:
+- https://cascale.org/our-members/
+- https://services.oeko-tex.com/buying-guide/
+- https://www.centricsoftware.com/partners/
