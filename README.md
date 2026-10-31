@@ -1,4 +1,4 @@
-# PVH Corp (pvh-corp)
+# PVH
 
 <!-- API-EVANGELIST-PROVENANCE:BEGIN -->
 > ### About this repository
@@ -66,48 +66,78 @@
 
 PVH Corp, formerly known as the Phillips-Van Heusen Corporation, is an American clothing company headquartered in Manhattan, New York City and listed on the New York Stock Exchange under the ticker PVH. Founded in 1881, PVH today operates two iconic owned global brands — Calvin Klein and Tommy Hilfiger — along with licensed brands including Kenneth Cole New York and Michael Kors. PVH divested its Heritage Brands wholesale business (Van Heusen, Arrow, Izod, Geoffrey Beene) to Authentic Brands Group in August 2021, refocusing the company on its two flagship designer lifestyle brands. PVH does not currently publish a public developer API or developer portal at the corporate level; technology and commerce integrations are handled brand-by-brand and through closed wholesale, licensing, and retail technology partnerships.
 
-**URL:** [https://www.pvh.com/](https://www.pvh.com/)
+**Areas:** Apparel · Brand Portfolio · Fashion · Lifestyle · Public Company · Retail · Wholesale · Fortune 500
 
-**Run:** [Capabilities Using Naftiko](https://github.com/naftiko/fleet?utm_source=api-evangelist&utm_medium=readme&utm_campaign=pvh-corp-api-evangelist&utm_content=repo)
+## PVH on APIs.io
 
-## Tags
+Everything profiled for PVH is published on APIs.io rather than in this repository. Start at the provider page — **[apis.io/providers/pvh-corp/](https://apis.io/providers/pvh-corp/)** — or go straight to one of the APIs or properties below.
 
-- Apparel, Brand Portfolio, Fashion, Lifestyle, Public Company, Retail, Wholesale
+### Published properties
 
-## Brand Portfolio
+Each property below is a page on APIs.io carrying the machine-readable artifact and what it says.
 
-**Owned brands**
+#### Security (1)
 
-- Calvin Klein — https://www.calvinklein.com/
-- Tommy Hilfiger — https://usa.tommy.com/
+Authentication, trust centre, and vulnerability disclosure.
 
-**Licensed brands**
+- [Pvh Corp Domain Security](https://apis.io/security/pvh-corp/pvh-corp-domain-security/)
 
-- Kenneth Cole New York
-- Michael Kors
+## Where to find this API
 
-**Divested (2021)**
+Links to the company's own pages. This repository publishes no copy of their specifications — the canonical document is theirs and lives at the URLs below.
 
-- Heritage Brands business — Van Heusen, Arrow, Izod, Geoffrey Beene — sold to Authentic Brands Group, closed August 2, 2021.
+- [Website](https://www.pvh.com/)
+- [GitHub](https://github.com/pvhcorp)
 
-## Links
+## API Evangelist rating
 
-- Website: https://www.pvh.com/
-- About: https://www.pvh.com/company
-- Brands: https://www.pvh.com/brands
-- Investor Relations: https://www.pvh.com/investors
-- News: https://www.pvh.com/news
-- Sustainability / Responsibility: https://www.pvh.com/responsibility
-- Careers: https://careers.pvh.com/
-- GitHub Organization: https://github.com/pvhcorp
-- LinkedIn: https://www.linkedin.com/company/pvh/
-- NYSE Ticker (PVH): https://www.nyse.com/quote/XNYS:PVH
+**Kin Score 3.9** — minimal · rubric 0.24.0 · scored 2026-10-17
 
-## API Surface
+| Facet | Score |
+|---|---|
+| Discoverability | 49.1 |
+| Contract quality | 0.0 |
+| Contract governance | 0.0 |
+| Operational transparency | 2.6 |
+| Developer ergonomics | 0.0 |
+| Access clarity | 0.0 |
 
-PVH Corp does not publish a public developer API, developer portal, OpenAPI spec, SDK, CLI, or status page at the corporate level. Brand-level commerce (calvinklein.com, tommy.com) runs on proprietary retail technology stacks accessed only through wholesale, licensing, and closed integration partnerships. There is no public OpenAPI, AsyncAPI, JSON Schema, or capabilities surface to document for this provider.
+**Agent readiness 0.0** — human-only
 
-## Timestamps
+| Agent-readiness dimension | Result |
+|---|---|
+| Spec Presence | — |
+| Agentic Access | — |
+| Reversibility Documented | — |
+| MCP Server | — |
+| Auth Clarity | — |
+| Idempotency | — |
+| Error Semantics | — |
+| OpenAPI Examples | — |
+| Rate Limit Signal | — |
+| Event Surface Described | — |
+| Agent Skills | — |
+| Well Known Catalog | — |
+| Consent Identity | — |
+| Agent Card | — |
+| Dry Run Mode | — |
+| Delegated Identity | — |
+| Protected Resource Metadata | — |
+| Dynamic Client Registration | — |
+| Agentic Commerce | — |
 
-- **Created:** 2026-05-23
-- **Modified:** 2026-05-23
+**Regulatory alignment 5.9** — Horizontal (data, software, accessibility, platform)
+
+The rubric is published at [github.com/api-evangelist/kin-score](https://github.com/api-evangelist/kin-score). The per-check breakdown behind these numbers — which checks were earned, partial or missed — along with score history and how this provider compares to its peers, is available at [apis.io/providers/pvh-corp/](https://apis.io/providers/pvh-corp/).
+
+## How this profile is made
+
+API Evangelist profiles a company's public API surface the way a developer would find it: the website, developer portal and documentation, the specifications it publishes, its public repositories, and its pricing, status and changelog pages. From that it derives the properties above — contracts split per API, workflows, schemas, collections, governance rules, plans and rate limits — and scores them against the published [Kin Score rubric](https://github.com/api-evangelist/kin-score).
+
+The artifacts are published on [APIs.io](https://apis.io), not in this repository. This repository is the public record for PVH: the place to say something is wrong, missing or out of date, and to ask for a re-score or a removal.
+
+## Open an issue
+
+- **Something about this listing** — a wrong description, a missing API, a stale artifact or a question about the rating: [open an issue on this repository](https://github.com/api-evangelist/pvh-corp/issues/new).
+- **A new API, or one that is not in the catalog yet** — [submit it on APIs.io](https://apis.io/add/).
+- **Anything else** — [the APIs.io inbox](https://github.com/api-search/inbox/issues/new) or [info@apievangelist.com](mailto:info@apievangelist.com).
